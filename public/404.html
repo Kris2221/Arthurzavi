@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>Redirecionando…</title>
+    <script>
+      (function () {
+        var segmentCount = 1;
+        var l = window.location;
+        var repoBase = l.pathname.split("/").slice(0, 1 + segmentCount).join("/");
+        var path = l.pathname.split("/").slice(1 + segmentCount).join("/");
+        var search = l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "";
+        var hash = l.hash || "";
+        l.replace(l.protocol + "//" + l.host + repoBase + "/?/" + path.replace(/&/g, "~and~") + search + hash);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
