@@ -35,7 +35,7 @@ const ConsultoriaSection = () => {
               <p className="mb-5 text-[10px] font-black uppercase tracking-[0.3em] text-primary md:text-[10px] md:tracking-[0.5em]">A consultoria</p>
               <h2 className="mb-6 text-[2.45rem] font-black leading-[0.88] tracking-tighter text-white md:mb-8 md:text-7xl">
                 O CAMINHO <br />
-                <span className="text-primary">DO ZAVI TEAM</span>
+                <span className="text-primary">DO TEAM ZAVI</span>
               </h2>
               <p className="mb-10 max-w-xl text-[15px] font-medium leading-relaxed text-white/50 md:mb-12 md:text-xl">
                 Você entra em um processo guiado: entendemos seu ponto de partida, montamos uma estratégia possível de seguir e ajustamos tudo com base na sua evolução.
