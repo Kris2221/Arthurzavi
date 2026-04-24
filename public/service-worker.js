@@ -1,13 +1,15 @@
-const CACHE_NAME = "zavi-treinador-v2";
+const CACHE_NAME = "zavi-treinador-v3";
+const BASE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
+const withBasePath = (path) => `${BASE_PATH}${path}`;
 const APP_SHELL = [
-  "/",
-  "/manifest.webmanifest",
-  "/favicon.ico",
-  "/favicon-16x16.png",
-  "/favicon-32x32.png",
-  "/apple-touch-icon.png",
-  "/android-chrome-192x192.png",
-  "/android-chrome-512x512.png",
+  withBasePath("/"),
+  withBasePath("/manifest.webmanifest"),
+  withBasePath("/favicon.ico"),
+  withBasePath("/favicon-16x16.png"),
+  withBasePath("/favicon-32x32.png"),
+  withBasePath("/apple-touch-icon.png"),
+  withBasePath("/android-chrome-192x192.png"),
+  withBasePath("/android-chrome-512x512.png"),
 ];
 
 self.addEventListener("install", (event) => {
@@ -36,6 +38,6 @@ self.addEventListener("fetch", (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
         return response;
       })
-      .catch(() => caches.match(event.request).then((cached) => cached || caches.match("/")))
+      .catch(() => caches.match(event.request).then((cached) => cached || caches.match(withBasePath("/"))))
   );
 });
