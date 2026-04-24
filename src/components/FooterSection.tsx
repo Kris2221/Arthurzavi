@@ -7,7 +7,7 @@ const FooterSection = () => (
       <div className="flex flex-col items-center gap-5">
         <BrandLogo variant="full" />
         <p className="text-white/40 text-sm font-black uppercase tracking-[0.3em]">
-          resultados inquestionaveis
+          Resultados inquestionáveis
         </p>
       </div>
 

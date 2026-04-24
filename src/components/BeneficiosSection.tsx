@@ -5,23 +5,23 @@ import { ClipboardCheck, Dumbbell, MessageCircle, Trophy } from "lucide-react";
 const beneficios = [
   {
     icon: ClipboardCheck,
-    title: "Analise personalizada",
-    desc: "Entendemos seu objetivo, rotina, historico e dificuldades para montar uma estrategia que faca sentido para voce.",
+    title: "Análise personalizada",
+    desc: "Entendemos seu objetivo, rotina, histórico e dificuldades para montar uma estratégia que faça sentido para você.",
   },
   {
     icon: Dumbbell,
     title: "Protocolo de treino e dieta",
-    desc: "Voce recebe um plano direto e aplicavel, com treino e dieta alinhados ao seu objetivo e nivel atual.",
+    desc: "Você recebe um plano direto e aplicável, com treino e dieta alinhados ao seu objetivo e nível atual.",
   },
   {
     icon: MessageCircle,
     title: "Acompanhamento humanizado",
-    desc: "Suporte proximo para tirar duvidas, ajustar o caminho e manter sua evolucao constante.",
+    desc: "Suporte próximo para tirar dúvidas, ajustar o caminho e manter sua evolução constante.",
   },
   {
     icon: Trophy,
     title: "Melhor resultado",
-    desc: "Metodo validado na pratica para transformar esforco em resultado real, com direcao e consistencia.",
+    desc: "Método validado na prática para transformar esforço em resultado real, com direção e consistência.",
   },
 ];
 
@@ -51,10 +51,10 @@ const BeneficiosSection = () => {
           className="mx-auto mb-12 max-w-4xl text-center md:mb-16"
         >
           <p className="mb-4 text-xs font-black uppercase tracking-[0.5em] text-primary">
-            depois de entrar no time
+            Depois de entrar no time
           </p>
           <h2 className="text-[2.45rem] font-black leading-[0.9] tracking-tighter text-white md:text-7xl lg:text-8xl">
-            O QUE VOCE <br />
+            O QUE VOCÊ <br />
             <span className="text-primary italic">RECEBE</span>
           </h2>
         </motion.div>

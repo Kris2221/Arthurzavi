@@ -3,11 +3,11 @@ import { useRef } from "react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Funciona para iniciantes?", a: "Sim. O plano e adaptado ao seu nivel, seja iniciante ou avancado, com orientacao clara para voce seguir sem ficar perdido." },
-  { q: "Preciso ir a academia?", a: "O ideal e ter acesso a academia, mas tambem e possivel adaptar o acompanhamento para home gym, dependendo da sua estrutura." },
-  { q: "Tem suporte?", a: "Sim. Voce tem suporte direto via WhatsApp para tirar duvidas, ajustar rota e manter consistencia no processo." },
-  { q: "Como funciona a dieta?", a: "A estrategia alimentar e montada de forma pratica e flexivel, de acordo com seu objetivo, rotina e preferencias." },
-  { q: "Quanto tempo para ver resultado?", a: "Os primeiros resultados costumam aparecer entre 4 e 8 semanas quando existe consistencia. O acompanhamento serve justamente para manter essa evolucao." },
+  { q: "Funciona para iniciantes?", a: "Sim. O plano é adaptado ao seu nível, seja iniciante ou avançado, com orientação clara para você seguir sem ficar perdido." },
+  { q: "Preciso ir à academia?", a: "O ideal é ter acesso à academia, mas também é possível adaptar o acompanhamento para home gym, dependendo da sua estrutura." },
+  { q: "Tem suporte?", a: "Sim. Você tem suporte direto via WhatsApp para tirar dúvidas, ajustar rota e manter consistência no processo." },
+  { q: "Como funciona a dieta?", a: "A estratégia alimentar é montada de forma prática e flexível, de acordo com seu objetivo, rotina e preferências." },
+  { q: "Quanto tempo para ver resultado?", a: "Os primeiros resultados costumam aparecer entre 4 e 8 semanas quando existe consistência. O acompanhamento serve justamente para manter essa evolução." },
 ];
 
 const FAQSection = () => {
@@ -26,7 +26,7 @@ const FAQSection = () => {
           className="mb-12 text-center md:mb-20"
         >
           <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.22em] text-primary md:text-xs md:tracking-[0.25em]">
-            Duvidas
+            Dúvidas
           </p>
           <h2 className="text-[2rem] text-foreground md:text-5xl">
             Perguntas <span className="text-gradient-gold">frequentes</span>

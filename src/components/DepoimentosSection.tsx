@@ -4,7 +4,7 @@ import Aluno1 from "@/assets/Aluno1-optimized.jpg";
 import Aluno2 from "@/assets/Aluno2-optimized.jpg";
 
 const transformations = [
-  { name: "Alexandre de Almeida", description: "Perda de gordura e definicao", image: Aluno1 },
+  { name: "Alexandre de Almeida", description: "Perda de gordura e definição", image: Aluno1 },
   { name: "Arthur Moura", description: "Ganho de massa muscular", image: Aluno2 },
 ];
 
@@ -25,7 +25,7 @@ const DepoimentosSection = () => {
             Resultados
           </p>
           <h2 className="text-[2rem] text-foreground md:text-5xl">
-            Quem ja <span className="text-gradient-gold">transformou</span>
+            Quem já <span className="text-gradient-gold">transformou</span>
           </h2>
         </motion.div>
 
@@ -43,7 +43,7 @@ const DepoimentosSection = () => {
               <div className="relative overflow-hidden">
                 <img
                   src={t.image}
-                  alt={`Transformacao de ${t.name}`}
+                  alt={`Transformação de ${t.name}`}
                   className="h-auto w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
                   loading="lazy"
                   decoding="async"

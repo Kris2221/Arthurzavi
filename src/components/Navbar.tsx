@@ -5,7 +5,7 @@ import BrandLogo from "@/components/BrandLogo";
 import { buildPlanWhatsappUrl, planGroups, planIncludedFeatures } from "@/data/plans";
 
 const links = [
-  { label: "Inicio", href: "#hero" },
+  { label: "Início", href: "#hero" },
   { label: "Sobre", href: "#sobre" },
   { label: "Consultoria", href: "#consultoria" },
   { label: "Resultados", href: "#resultados" },
@@ -56,13 +56,13 @@ const PlansModal = ({ open, onClose }: { open: boolean; onClose: () => void }) =
 
             <div className="relative z-10 mb-8 max-w-4xl">
               <p className="mb-3 text-[11px] font-black uppercase tracking-[0.4em] text-primary">
-                investimento no seu processo
+                Investimento no seu processo
               </p>
               <h2 className="text-4xl font-black uppercase leading-[0.9] tracking-tighter text-white md:text-6xl">
                 Acompanhamento online
               </h2>
               <p className="mt-5 text-base font-medium leading-relaxed text-white/55 md:text-lg">
-                Escolha entre treino, dieta ou acompanhamento completo. O encaixe e feito direto no WhatsApp para voce entrar com clareza no plano certo.
+                Escolha entre treino, dieta ou acompanhamento completo. O encaixe é feito diretamente no WhatsApp para você entrar com clareza no plano certo.
               </p>
             </div>
 
@@ -82,7 +82,7 @@ const PlansModal = ({ open, onClose }: { open: boolean; onClose: () => void }) =
                     </div>
                     {group.featured && (
                       <span className="inline-flex w-fit rounded-full border border-primary/25 bg-primary/15 px-4 py-2 text-[10px] font-black uppercase tracking-[0.24em] text-primary">
-                        melhor encaixe
+                        Melhor encaixe
                       </span>
                     )}
                   </div>
@@ -102,7 +102,7 @@ const PlansModal = ({ open, onClose }: { open: boolean; onClose: () => void }) =
                           )}
                         </div>
 
-                        <p className="mb-4 text-4xl font-black tracking-tighter text-white">{plan.price}</p>
+                        <p className="mb-4 text-xl font-black uppercase tracking-[0.18em] text-white/80">Consulte valores no WhatsApp</p>
 
                         <ul className="mb-6 space-y-3">
                           {planIncludedFeatures.map((feature) => (
@@ -125,7 +125,7 @@ const PlansModal = ({ open, onClose }: { open: boolean; onClose: () => void }) =
                               : "border border-white/10 bg-white/5 text-white hover:bg-white/10"
                           }`}
                         >
-                          Quero esse
+                          Quero este
                           <ArrowRight size={17} className="transition-transform group-hover:translate-x-1" />
                         </a>
                       </div>

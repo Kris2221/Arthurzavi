@@ -43,21 +43,21 @@ const AboutSection = () => {
           >
             <p className="mb-4 text-[11px] font-black uppercase tracking-[0.26em] text-primary md:text-xs md:tracking-[0.35em]">Por que confiar</p>
             <h2 className="mb-6 text-3xl font-black leading-[0.94] tracking-tighter text-white md:mb-8 md:text-6xl">
-              Ele nao vende teoria. <span className="text-primary">Ele viveu o processo.</span>
+              Ele não vende teoria. <span className="text-primary">Ele viveu o processo.</span>
             </h2>
             <div className="mb-8 space-y-4 md:space-y-5">
               <p className="text-[15px] leading-relaxed text-white/65 md:text-lg">
-                O Zavi Team nao nasceu de uma promessa vazia. Nasceu da experiencia real de quem ja pesou 130kg, sentiu na pele a dificuldade de mudar e construiu resultado com treino, alimentacao e constancia.
+                O Zavi Team não nasceu de uma promessa vazia. Nasceu da experiência real de quem já pesou 130kg, sentiu na pele a dificuldade de mudar e construiu resultado com treino, alimentação e constância.
               </p>
               <p className="text-[15px] leading-relaxed text-white/65 md:text-lg">
-                Hoje, essa vivencia virou uma consultoria personalizada para pessoas que querem parar de tentar sozinhas e seguir um caminho claro, acompanhado e ajustado de verdade.
+                Hoje, essa vivência virou uma consultoria personalizada para pessoas que querem parar de tentar sozinhas e seguir um caminho claro, acompanhado e ajustado de verdade.
               </p>
               <p className="text-[15px] leading-relaxed text-white/65 md:text-lg">
-                Aqui voce nao recebe um PDF generico. Voce recebe direcao, cobranca, suporte e estrategia baseada no que funciona na pratica com alunos reais.
+                Aqui você não recebe um PDF genérico. Você recebe direção, cobrança, suporte e estratégia baseada no que funciona na prática com alunos reais.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-              {["Ja pesou 130kg", "Alunos reais", "Treino e alimentacao"].map((t, i) => (
+              {["Já pesou 130kg", "Alunos reais", "Treino e alimentação"].map((t, i) => (
                 <motion.span
                   key={t}
                   initial={{ opacity: 0, y: 10 }}

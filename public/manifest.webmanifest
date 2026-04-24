@@ -1,7 +1,7 @@
 {
   "name": "ZAVI Treinador",
   "short_name": "ZAVI",
-  "description": "Consultoria fitness online com treino, alimentacao e acompanhamento real.",
+  "description": "Consultoria fitness online com treino, alimentação e acompanhamento real.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

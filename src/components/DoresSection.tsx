@@ -4,11 +4,11 @@ import { ArrowRight, XCircle } from "lucide-react";
 import athleteSilhouette from "@/assets/silhueta-atleta.png.png";
 
 const dores = [
-  "Voce treina, tenta fazer dieta, mas nao consegue manter constancia",
-  "Voce ja cansou de plano generico que nao encaixa na sua rotina",
-  "Voce se sente perdido sobre o que comer e como evoluir no treino",
-  "Voce comeca motivado, mas desanima porque nao ve resultado claro",
-  "Voce precisa de alguem olhando sua evolucao e ajustando o caminho",
+  "Você treina, tenta fazer dieta, mas não consegue manter constância",
+  "Você já cansou de plano genérico que não encaixa na sua rotina",
+  "Você se sente perdido sobre o que comer e como evoluir no treino",
+  "Você começa motivado, mas desanima porque não vê resultado claro",
+  "Você precisa de alguém olhando sua evolução e ajustando o caminho",
 ];
 
 const DoresSection = () => {
@@ -43,12 +43,12 @@ const DoresSection = () => {
               loading="lazy"
             />
           </motion.div>
-          <p className="mb-4 text-[11px] font-black uppercase tracking-[0.3em] text-primary md:text-xs md:tracking-[0.5em]">Antes do metodo</p>
+          <p className="mb-4 text-[11px] font-black uppercase tracking-[0.3em] text-primary md:text-xs md:tracking-[0.5em]">Antes do método</p>
           <h2 className="text-[2.35rem] font-black leading-[0.88] tracking-tighter text-white md:text-7xl lg:text-8xl">
-            SE ISSO ACONTECE <br /> <span className="text-primary italic">COM VOCE</span>
+            SE ISSO ACONTECE <br /> <span className="text-primary italic">COM VOCÊ</span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-[15px] font-medium text-white/50 md:mt-7 md:text-lg">
-            O problema talvez nao seja falta de vontade. Pode ser falta de estrategia, direcao e acompanhamento.
+            O problema talvez não seja falta de vontade. Pode ser falta de estratégia, direção e acompanhamento.
           </p>
         </motion.div>
 
@@ -80,7 +80,7 @@ const DoresSection = () => {
             className="btn-premium cta-glow group relative overflow-hidden rounded-lg bg-primary px-8 py-4 font-bold text-primary-foreground"
           >
             <span className="relative z-10 flex items-center gap-2">
-              Ver como o metodo resolve
+              Ver como o método resolve
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
             </span>
             <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-transform duration-700 group-hover:translate-x-full" />

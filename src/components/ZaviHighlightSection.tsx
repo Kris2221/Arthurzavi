@@ -3,8 +3,10 @@ import { useRef } from "react";
 import { ArrowRight, ChartNoAxesColumn, ShieldCheck, TimerReset } from "lucide-react";
 import BrandLogo from "@/components/BrandLogo";
 
-const WHATSAPP_URL =
-  "https://api.whatsapp.com/send/?phone=5534984007634&text=Oie%21+Gostaria+de+saber+mais+sobre+o+acompanhamento+on-line+ou+Personal+trainer&type=phone_number";
+const WHATSAPP_MESSAGE = "Olá! Gostaria de saber mais sobre o acompanhamento online ou personal trainer.";
+const WHATSAPP_URL = `https://api.whatsapp.com/send/?phone=5534984007634&text=${encodeURIComponent(
+  WHATSAPP_MESSAGE
+)}&type=phone_number`;
 
 const ZaviHighlightSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -59,7 +61,7 @@ const ZaviHighlightSection = () => {
             transition={{ delay: 0.2 }}
             className="mb-5 block text-[11px] font-black uppercase tracking-[0.24em] text-primary md:mb-6 md:text-xs md:tracking-[0.3em]"
           >
-            A forca que voce precisa
+            A força que você precisa
           </motion.span>
 
           <h2 className="mb-6 text-[2.7rem] font-black leading-[0.9] tracking-tighter text-white md:mb-8 md:text-7xl lg:text-8xl">
@@ -69,7 +71,7 @@ const ZaviHighlightSection = () => {
           </h2>
 
           <p className="mb-8 max-w-lg text-[15px] font-medium leading-relaxed text-white/60 md:mb-12 md:text-xl">
-            Treinos diretos, acompanhamento real e evolucao visivel. O metodo ZAVI foi criado para quem nao aceita menos que o extraordinario.
+            Treinos diretos, acompanhamento real e evolução visível. O método ZAVI foi criado para quem não aceita menos que o extraordinário.
           </p>
 
           <motion.a
@@ -80,7 +82,7 @@ const ZaviHighlightSection = () => {
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-3 rounded-full bg-secondary px-7 py-4 text-sm font-black uppercase tracking-tight text-secondary-foreground shadow-[0_0_40px_rgba(212,175,55,0.3)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(212,175,55,0.5)] md:gap-4 md:px-10 md:py-5 md:text-lg"
           >
-            Comecar agora
+            Começar agora
             <ArrowRight size={24} />
           </motion.a>
         </motion.div>
@@ -108,7 +110,7 @@ const ZaviHighlightSection = () => {
                 <div className="flex items-center gap-4">
                   <BrandLogo variant="emblem" className="h-14 w-14 shrink-0 md:h-20 md:w-20" />
                   <div>
-                    <p className="text-[11px] font-black uppercase tracking-[0.34em] text-primary/80">Metodo ZAVI</p>
+                    <p className="text-[11px] font-black uppercase tracking-[0.34em] text-primary/80">Método ZAVI</p>
                     <h3 className="mt-2 text-2xl font-black leading-none text-white md:mt-3 md:text-4xl">Alta performance</h3>
                   </div>
                 </div>
@@ -122,10 +124,10 @@ const ZaviHighlightSection = () => {
                 <div className="rounded-3xl border border-white/10 bg-black/50 p-4 md:p-5">
                   <div className="flex items-center gap-3 text-primary">
                     <ChartNoAxesColumn size={18} />
-                    <span className="text-[10px] font-black uppercase tracking-[0.28em] text-primary/80">Evolucao real</span>
+                    <span className="text-[10px] font-black uppercase tracking-[0.28em] text-primary/80">Evolução real</span>
                   </div>
                   <p className="mt-5 text-4xl font-black leading-none text-white md:mt-6 md:text-5xl">+12</p>
-                  <p className="mt-2 text-sm text-white/60">semanas com acompanhamento estrategico e ajuste constante.</p>
+                  <p className="mt-2 text-sm text-white/60">semanas com acompanhamento estratégico e ajuste constante.</p>
                 </div>
 
                 <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-4 md:p-5">
@@ -144,7 +146,7 @@ const ZaviHighlightSection = () => {
                       <div className="h-full w-[76%] rounded-full bg-white/40" />
                     </div>
                   </div>
-                  <p className="mt-4 text-sm text-white/60">Planejamento, execucao e constancia no mesmo sistema.</p>
+                  <p className="mt-4 text-sm text-white/60">Planejamento, execução e constância no mesmo sistema.</p>
                 </div>
               </div>
 
@@ -156,7 +158,7 @@ const ZaviHighlightSection = () => {
                       <span className="text-[10px] font-black uppercase tracking-[0.28em] text-primary/80">Rotina inteligente</span>
                     </div>
                     <p className="mt-3 text-lg font-black leading-tight text-white md:text-2xl">
-                      Menos aleatoriedade, mais direcao para construir resultado de verdade.
+                      Menos aleatoriedade, mais direção para construir resultado de verdade.
                     </p>
                   </div>
 

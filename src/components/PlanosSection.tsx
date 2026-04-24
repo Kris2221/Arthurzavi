@@ -18,12 +18,14 @@ const PlanosSection = () => {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="mx-auto mb-12 max-w-4xl text-center md:mb-16"
         >
-          <p className="mb-4 text-[11px] font-black uppercase tracking-[0.3em] text-secondary md:text-xs md:tracking-[0.5em]">Investimento</p>
+          <p className="mb-4 text-[11px] font-black uppercase tracking-[0.3em] text-secondary md:text-xs md:tracking-[0.5em]">
+            Planos
+          </p>
           <h2 className="text-[2.55rem] font-black leading-[0.9] tracking-tighter text-white md:text-7xl lg:text-8xl">
             ACOMPANHAMENTO <br /> <span className="text-secondary">ONLINE</span>
           </h2>
           <p className="mx-auto mt-5 max-w-3xl text-[15px] font-medium text-white/55 md:mt-7 md:text-lg">
-            Escolha a forma de acompanhamento que mais encaixa no seu momento. Se quiser acelerar o resultado com treino e alimentacao no mesmo processo, o plano completo entrega o melhor encaixe.
+            Escolha a forma de acompanhamento que mais encaixa no seu momento. Se quiser acelerar o resultado com treino e alimentação no mesmo processo, o plano completo entrega o melhor encaixe.
           </p>
         </motion.div>
 
@@ -97,8 +99,10 @@ const PlanosSection = () => {
                       </div>
 
                       <div className="mb-5 border-y border-white/10 py-4 md:mb-6 md:py-5">
-                        <p className="text-[13px] font-black uppercase tracking-[0.16em] text-white/35 md:text-[15px] md:tracking-[0.2em]">Investimento</p>
-                        <p className="mt-2 text-3xl font-black tracking-tighter text-white md:text-5xl">{plan.price}</p>
+                        <p className="text-[13px] font-black uppercase tracking-[0.16em] text-white/35 md:text-[15px] md:tracking-[0.2em]">
+                          Valores
+                        </p>
+                        <p className="mt-2 text-2xl font-black tracking-tighter text-white md:text-4xl">Consulte no WhatsApp</p>
                       </div>
 
                       <div className="mb-6 space-y-3 md:mb-8">
@@ -108,7 +112,7 @@ const PlanosSection = () => {
                         </div>
                         <div className="flex items-start gap-3 text-[13px] font-medium text-white/68 md:text-sm">
                           <Sparkles size={18} className="mt-0.5 shrink-0 text-primary" />
-                          Entrada guiada direto no WhatsApp para alinhar pagamento e inicio.
+                          Entrada guiada diretamente no WhatsApp para alinhar pagamento e início.
                         </div>
                       </div>
 

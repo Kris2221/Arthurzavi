@@ -3,8 +3,10 @@ import { useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import arthurHero from "@/assets/hero-novo.jpg.jpeg";
 
-const WHATSAPP_URL =
-  "https://api.whatsapp.com/send/?phone=5534984007634&text=Oie%21+Quero+entender+como+comecar+no+Zavi+Team&type=phone_number&app_absent=0";
+const WHATSAPP_MESSAGE = "Olá! Quero entender como começar no Zavi Team.";
+const WHATSAPP_URL = `https://api.whatsapp.com/send/?phone=5534984007634&text=${encodeURIComponent(
+  WHATSAPP_MESSAGE
+)}&type=phone_number&app_absent=0`;
 
 const HeroSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -87,7 +89,7 @@ const HeroSection = () => {
             className="mb-4"
           >
             <span className="text-[9px] font-black uppercase tracking-[0.34em] text-primary md:text-xs md:tracking-[0.5em]">
-              Metodo ZAVI • transformacao real
+              Método ZAVI • transformação real
             </span>
           </motion.div>
 
@@ -106,7 +108,7 @@ const HeroSection = () => {
               transition={{ duration: 1.2, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="block text-primary"
             >
-              FISICO
+              FÍSICO
             </motion.span>
           </h1>
 
@@ -117,7 +119,7 @@ const HeroSection = () => {
             className="mx-auto mb-8 max-w-xl md:mx-0 md:mb-12"
           >
             <p className="text-[15px] font-medium leading-relaxed text-white/60 md:text-xl">
-              Uma consultoria criada por quem ja pesou 130kg, venceu o proprio processo e hoje ajuda alunos reais a emagrecer, ganhar massa muscular e construir disciplina com treino e alimentacao que funcionam.
+              Uma consultoria criada por quem já pesou 130kg, venceu o próprio processo e hoje ajuda alunos reais a emagrecer, ganhar massa muscular e construir disciplina com treino e alimentação que funcionam.
             </p>
           </motion.div>
 
@@ -134,7 +136,7 @@ const HeroSection = () => {
               className="group relative w-full max-w-[320px] overflow-hidden rounded-full bg-primary px-8 py-4 text-xs font-black uppercase tracking-[0.18em] text-primary-foreground transition-all duration-500 hover:scale-[1.05] hover:bg-secondary hover:shadow-[0_0_50px_rgba(212,175,55,0.4)] sm:w-auto sm:max-w-none sm:px-10 sm:py-5 md:px-12 md:py-6 md:text-sm md:tracking-widest"
             >
               <span className="relative z-10 flex items-center gap-3">
-                Quero comecar
+                Quero começar
                 <ArrowRight size={18} className="transition-transform duration-500 group-hover:translate-x-2" />
               </span>
               <div className="absolute inset-0 translate-y-full bg-white/20 transition-transform duration-500 group-hover:translate-y-0" />
@@ -144,7 +146,7 @@ const HeroSection = () => {
               onClick={() => document.querySelector("#consultoria")?.scrollIntoView({ behavior: "smooth" })}
               className="group w-full max-w-[320px] rounded-full border border-primary/20 px-8 py-4 text-xs font-black uppercase tracking-[0.18em] text-white transition-all duration-500 hover:border-primary hover:bg-primary hover:text-primary-foreground sm:w-auto sm:max-w-none sm:px-10 sm:py-5 md:px-12 md:py-6 md:text-sm md:tracking-widest"
             >
-              Entender o metodo
+              Entender o método
             </button>
           </motion.div>
         </div>

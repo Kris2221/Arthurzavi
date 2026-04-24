@@ -3,10 +3,10 @@ import { useRef } from "react";
 import { CheckCircle, MessageCircle, RefreshCw, UserCheck } from "lucide-react";
 
 const diferenciais = [
-  { icon: UserCheck, title: "Plano individual", desc: "Treino e alimentacao pensados para sua rotina, objetivo, nivel e dificuldade real." },
+  { icon: UserCheck, title: "Plano individual", desc: "Treino e alimentação pensados para sua rotina, objetivo, nível e dificuldade real." },
   { icon: RefreshCw, title: "Ajustes constantes", desc: "O plano evolui conforme sua resposta. Nada fica parado quando seu corpo muda." },
-  { icon: CheckCircle, title: "Metodo pratico", desc: "Sem promessa magica: estrategia simples, execucao bem feita e acompanhamento serio." },
-  { icon: MessageCircle, title: "Suporte direto", desc: "Voce tem orientacao para corrigir rota, tirar duvidas e manter consistencia." },
+  { icon: CheckCircle, title: "Método prático", desc: "Sem promessa mágica: estratégia simples, execução bem feita e acompanhamento sério." },
+  { icon: MessageCircle, title: "Suporte direto", desc: "Você tem orientação para corrigir rota, tirar dúvidas e manter consistência." },
 ];
 
 const ConsultoriaSection = () => {
@@ -38,7 +38,7 @@ const ConsultoriaSection = () => {
                 <span className="text-primary">DO ZAVI TEAM</span>
               </h2>
               <p className="mb-10 max-w-xl text-[15px] font-medium leading-relaxed text-white/50 md:mb-12 md:text-xl">
-                Voce entra em um processo guiado: entendemos seu ponto de partida, montamos uma estrategia possivel de seguir e ajustamos tudo com base na sua evolucao.
+                Você entra em um processo guiado: entendemos seu ponto de partida, montamos uma estratégia possível de seguir e ajustamos tudo com base na sua evolução.
               </p>
 
               <div className="flex flex-col gap-8">
@@ -81,10 +81,10 @@ const ConsultoriaSection = () => {
                 className="flex min-h-[220px] flex-col justify-end rounded-2xl bg-primary p-6 shadow-[0_0_50px_rgba(212,175,55,0.2)] md:min-h-[300px] md:p-10"
               >
                 <h4 className="mb-3 text-3xl font-black uppercase italic leading-[0.88] tracking-tighter text-background md:mb-4 md:text-4xl">
-                  RESULTADO <br /> COM DIRECAO
+                  RESULTADO <br /> COM DIREÇÃO
                 </h4>
                 <p className="text-sm font-black uppercase tracking-widest text-background/70">
-                  Treino, alimentacao e acompanhamento no mesmo processo.
+                  Treino, alimentação e acompanhamento no mesmo processo.
                 </p>
               </motion.div>
             </div>

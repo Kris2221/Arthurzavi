@@ -2,8 +2,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ArrowRight, MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL =
-  "https://api.whatsapp.com/send/?phone=5534984007634&text=Oie%21+Li+as+informa%C3%A7%C3%B5es+do+site+e+fiquei+com+uma+d%C3%BAvida.+Pode+me+ajudar%3F&type=phone_number&app_absent=0";
+const WHATSAPP_MESSAGE = "Olá! Li as informações do site e fiquei com uma dúvida. Pode me ajudar?";
+const WHATSAPP_URL = `https://api.whatsapp.com/send/?phone=5534984007634&text=${encodeURIComponent(
+  WHATSAPP_MESSAGE
+)}&type=phone_number&app_absent=0`;
 
 const WhatsAppBadge = ({ className = "" }: { className?: string }) => (
   <motion.div
@@ -32,16 +34,16 @@ const PhoneMockup = () => (
 
       <div className="space-y-3 p-4 text-left">
         <div className="max-w-[88%] rounded-2xl rounded-tl-sm bg-white px-3 py-2 text-[11px] font-semibold leading-relaxed text-black/75 shadow-sm">
-          Tenho duvida sobre consultoria online e personal.
+          Tenho dúvida sobre consultoria online e personal trainer.
         </div>
         <div className="ml-auto max-w-[86%] rounded-2xl rounded-tr-sm bg-[#dcf8c6] px-3 py-2 text-[11px] font-semibold leading-relaxed text-black/75 shadow-sm">
-          Me chama aqui que eu te explico qual plano faz mais sentido para voce.
+          Pode me chamar aqui que eu explico qual plano faz mais sentido para você.
         </div>
         <div className="max-w-[90%] rounded-2xl rounded-tl-sm bg-white px-3 py-2 text-[11px] font-semibold leading-relaxed text-black/75 shadow-sm">
           Quero entender como funciona o acompanhamento.
         </div>
         <div className="ml-auto max-w-[88%] rounded-2xl rounded-tr-sm bg-[#dcf8c6] px-3 py-2 text-[11px] font-semibold leading-relaxed text-black/75 shadow-sm">
-          Perfeito. Vou tirar suas duvidas e te orientar no melhor caminho.
+          Perfeito. Vou tirar suas dúvidas e orientar você no melhor caminho.
         </div>
       </div>
     </div>
@@ -79,7 +81,7 @@ const CTAFinalSection = () => {
               atendimento direto
             </p>
             <h2 className="text-3xl font-black leading-[0.96] tracking-[-0.04em] text-black md:text-6xl">
-              Mais alguma duvida?
+              Mais alguma dúvida?
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-[15px] font-semibold leading-relaxed text-black/70 md:mx-0 md:mt-6 md:text-2xl">
               Fale com o Zavi no WhatsApp e descubra qual acompanhamento combina melhor com seu objetivo.

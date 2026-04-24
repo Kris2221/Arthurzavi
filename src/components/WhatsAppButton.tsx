@@ -2,8 +2,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL =
-  "https://api.whatsapp.com/send/?phone=5534984007634&text=Oie%21+Gostaria+de+saber+mais+sobre+o+acompanhamento+on-line+ou+Personal+trainer&type=phone_number";
+const WHATSAPP_MESSAGE = "Olá! Gostaria de saber mais sobre o acompanhamento online ou personal trainer.";
+const WHATSAPP_URL = `https://api.whatsapp.com/send/?phone=5534984007634&text=${encodeURIComponent(
+  WHATSAPP_MESSAGE
+)}&type=phone_number`;
 
 const WhatsAppButton = () => {
   const [isHovered, setIsHovered] = useState(false);
