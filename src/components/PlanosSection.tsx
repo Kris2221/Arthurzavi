@@ -21,7 +21,7 @@ const PlanosSection = () => {
           <p className="mb-4 text-[11px] font-black uppercase tracking-[0.3em] text-secondary md:text-xs md:tracking-[0.5em]">
             Planos
           </p>
-          <h2 className="text-[2.55rem] font-black leading-[0.9] tracking-tighter text-white md:text-7xl lg:text-8xl">
+          <h2 className="text-[2.05rem] font-black leading-[0.9] tracking-tighter text-white sm:text-[2.55rem] md:text-7xl lg:text-8xl">
             ACOMPANHAMENTO <br /> <span className="text-secondary">ONLINE</span>
           </h2>
           <p className="mx-auto mt-5 max-w-3xl text-[15px] font-medium text-white/55 md:mt-7 md:text-lg">
