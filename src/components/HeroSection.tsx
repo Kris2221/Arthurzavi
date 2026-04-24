@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import arthurHero from "@/assets/hero-novo.jpg.jpeg";
 
-const WHATSAPP_MESSAGE = "Olá! Quero entender como começar no Zavi Team.";
+const WHATSAPP_MESSAGE = "Olá! Quero entender como começar no Team Zavi.";
 const WHATSAPP_URL = `https://api.whatsapp.com/send/?phone=5534984007634&text=${encodeURIComponent(
   WHATSAPP_MESSAGE
 )}&type=phone_number&app_absent=0`;

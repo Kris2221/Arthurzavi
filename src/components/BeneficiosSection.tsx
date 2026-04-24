@@ -107,7 +107,7 @@ const BeneficiosSection = () => {
                     i % 2 === 0 ? "text-black/45" : "text-primary/70"
                   }`}
                 >
-                  Zavi Team
+                  Team Zavi
                 </div>
               </div>
             </motion.div>

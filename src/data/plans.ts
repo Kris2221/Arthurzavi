@@ -3,7 +3,7 @@ export const WHATSAPP_PHONE = "5534984007634";
 export const planIncludedFeatures = [
   "Suporte contínuo no WhatsApp",
   "Lista de substituição de alimentos",
-  "Contato direto com o Zavi Team",
+  "Contato direto com o Team Zavi",
 ];
 
 export const planGroups = [

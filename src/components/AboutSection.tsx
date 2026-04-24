@@ -47,7 +47,7 @@ const AboutSection = () => {
             </h2>
             <div className="mb-8 space-y-4 md:space-y-5">
               <p className="text-[15px] leading-relaxed text-white/65 md:text-lg">
-                O Zavi Team não nasceu de uma promessa vazia. Nasceu da experiência real de quem já pesou 130kg, sentiu na pele a dificuldade de mudar e construiu resultado com treino, alimentação e constância.
+                O Team Zavi não nasceu de uma promessa vazia. Nasceu da experiência real de quem já pesou 130kg, sentiu na pele a dificuldade de mudar e construiu resultado com treino, alimentação e constância.
               </p>
               <p className="text-[15px] leading-relaxed text-white/65 md:text-lg">
                 Hoje, essa vivência virou uma consultoria personalizada para pessoas que querem parar de tentar sozinhas e seguir um caminho claro, acompanhado e ajustado de verdade.
